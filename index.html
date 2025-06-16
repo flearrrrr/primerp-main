@@ -17,25 +17,16 @@
 </script>
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 </head>
-    <!-- Loading screen -->
   <div id="loading-screen" class="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center z-50">
-    <!-- Spinner Circle -->
     <div class="w-16 h-16 border-4 border-cyan-400 border-t-transparent rounded-full animate-spin"></div>
   </div>
-
 <body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen text-white">
-
-  <!-- Header -->
 <header class="mb-12 bg-gray-900 bg-opacity-80 backdrop-blur-md rounded-2xl px-6 py-4 shadow-lg border border-cyan-500/20">
   <div class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto space-y-4 md:space-y-0">
-    
-    <!-- Logo / Title -->
     <div class="text-center md:text-left">
       <h1 class="text-4xl font-extrabold text-cyan-400 tracking-wide">Prime RP</h1>
       <p class="text-sm text-gray-400">Your Ultimate Roleplay Experience</p>
     </div>
-
-    <!-- Navigation -->
     <nav class="flex items-center space-x-6 text-base font-medium">
       <a href="home.html" class="text-cyan-400 hover:text-white transition duration-300">Home</a>
       <a href="jobs.html" class="text-cyan-400 hover:text-white transition duration-300">Jobs</a>
@@ -43,21 +34,14 @@
     </nav>
   </div>
 </header>
-  <!-- Hero Section -->
 <section class="relative min-h-screen flex items-center justify-center text-center px-4 overflow-hidden">
-    
-  <!-- Video Background -->
   <video autoplay muted loop playsinline
     class="absolute top-0 left-0 w-full h-full object-cover -z-10"
     >
     <source src="vid/BackVideo.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-
-  <!-- Overlay for readability -->
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 -z-5"></div>
-
-  <!-- Content -->
   <div class="relative max-w-3xl rounded-2xl p-8 text-white">
     <h2 class="text-5xl font-extrabold text-cyan-400 mb-6">Welcome to Prime RP</h2>
     <p class="text-lg text-gray-300 mb-8">
@@ -76,12 +60,7 @@
     </div>
   </div>
 </section>
-  <!-- Content Section -->
-<!-- About Us Section -->
-<!-- Wrap your content in a max width container -->
 <div class="max-w-5xl mx-auto px-4">
-
-  <!-- About Us Section -->
   <section class="mt-20 mb-20">
     <h3 
       class="text-3xl font-semibold text-cyan-300 mb-8 text-center" 
@@ -89,7 +68,6 @@
     >
       About Us
     </h3>
-
     <div class="grid md:grid-cols-2 gap-10 items-center">
       <div data-aos="fade-right" data-aos-delay="100">
         <p class="text-lg text-gray-300 leading-relaxed">
@@ -97,7 +75,6 @@
           Whether you're a seasoned roleplayer or new to the scene, you'll find a welcoming environment here. Join us and be part of a thriving world where your story matters.
         </p>
       </div>
-
       <div class="grid grid-cols-2 gap-4">
         <img src="img/1.jpg" alt="primerpabout1" class="rounded-xl shadow-md object-cover w-full h-40 md:h-48" data-aos="zoom-in" data-aos-delay="200"/>
         <img src="img/2.jpg" alt="primerpabout2" class="rounded-xl shadow-md object-cover w-full h-40 md:h-48" data-aos="zoom-in" data-aos-delay="300"/>
@@ -106,8 +83,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Job Applications Section -->
   <section class="mb-10">
     <h3 
       class="text-2xl font-semibold text-cyan-300 mb-8 text-center" 
@@ -115,7 +90,6 @@
     >
       Job Applications
     </h3>
-
     <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
       <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-cyan-500/30 transition" data-aos="slide-up" data-aos-delay="100">
         <img src="img/pd.jpg" alt="Police Image" class="w-full h-48 object-cover" />
@@ -139,9 +113,7 @@
       </div>
     </div>
   </section>
-
 </div>
-    <!-- Footer -->
   <footer class="bg-gray-800 py-6 mt-10 text-center text-sm text-gray-400 max-width mx-auto px-4">
     <p>&copy; 2025 Prime RP. All rights reserved.</p>
     <p class="mt-2">
@@ -150,10 +122,8 @@
       <a href="https://instagram.com/" class="text-cyan-400 hover:underline" target="_blank">Instagram</a>.
     </p>
   </footer>
-
 </body>
 <script>
-  // Hide loading screen after content is loaded
     setTimeout(() => {
       const loadingScreen = document.getElementById('loading-screen');
       if (loadingScreen) {
